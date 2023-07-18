@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Links</title>
 
+  <script src="https://kit.fontawesome.com/f7b40e5181.js" crossorigin="anonymous"></script>
+
   <style>
     body {
       padding: 40px 0;
@@ -14,9 +16,10 @@
     }
 
     .name {
-      color: #fffffe;
       display: flex;
       justify-content: center;
+      color: #fffffe;
+      font-size: 2em;
     }
 
     .banner {
@@ -43,6 +46,12 @@
       display: flex;
       align-items: center;
       padding: 5px;
+      border-radius: 48px;
+    }
+
+    .link:hover {
+      box-shadow: 8px 8px 10px #FFFD74;
+      transition: box-shadow 0.5s ease-in-out;
     }
 
     .link a {
@@ -50,16 +59,25 @@
       text-decoration: none;
       text-align: center;
       flex-grow: 1;
+      font-size: 1.3rem;
+      padding-right: 3rem;
     }
 
     .social-icons {
       display: flex;
       justify-content: space-around;
+      margin: 20px 0;
     }
 
     .social-icons a {
       color: #fffffe;
       text-decoration: none;
+      font-size: large;
+      font-weight: bolder;
+    }
+
+    .fa-brands {
+      margin: 0 5px;
     }
 
     .items {
@@ -69,9 +87,18 @@
       max-width: 640px;
       flex-grow: 1;
     }
+
+    .header {
+      display: flex;
+      justify-content: center;
+      color: #fffffe;
+      margin-top: 15px;
+    }
+
   </style>
 
 </head>
+
 <body>
 
 <div class="items">
@@ -84,17 +111,21 @@
   </div>
 
   <div class="social-icons">
-    <a href="#" target="_blank">
-      Github
+    <a href="https://github.com/salcasta" alt="Sal's Github Profile" target="_blank">
+      <i class="fa-brands fa-github fa-2xl" style="color: #eebbc3;"></i> Github
     </a>
 
-    <a href="#" target="_blank">
-      LinkedIn
+    <a href="https://www.linkedin.com/in/salvador-castaneda-709b26221/" alt="Sal's LinkedIn Profile" target="_blank">
+      <i class="fa-brands fa-linkedin fa-2xl" style="color: #eebbc3;"></i> LinkedIn
     </a>
 
-    <a href="#" target="_blank">
-      Twitter
+    <a href="https://twitter.com/salcasta" alt="Sal's Twitter Profile" target="_blank">
+      <i class="fa-brands fa-twitter fa-2xl" style="color: #eebbc3;"></i> Twitter
     </a>
+  </div>
+
+  <div class="header">
+    <h2>IDE</h2>
   </div>
 
   <div class="link">
@@ -110,6 +141,83 @@
   <div class="link">
     <img src="/public/codespace.jpeg" alt="Codespaces Logo" class="thumbnail">
     <a href="https://github.com/features/codespaces" target="_blank">Codespaces</a>
+  </div>
+
+  <div class="header">
+    <h2>HTML & CSS</h2>
+  </div>
+
+  <div class="link">
+    <img src="/public/codecademy.png" alt="Codecademy logo" class="thumbnail">
+    <a href="https://www.codecademy.com/" target="_blank">Codecademy</a>
+  </div>
+
+  <div class="link">
+    <img src="/public/w3schools.png" alt="W3Schools Logo" class="thumbnail">
+    <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+  </div>
+
+  <div class="link">
+    <img src="/public/scrimba.svg" alt="Scrimba Logo" class="thumbnail">
+    <a href="https://scrimba.com/" target="_blank">Scrimba</a>
+  </div>
+
+  <div class="header">
+    <h2>JavaScript</h2>
+  </div>
+
+  <div class="link">
+    <img src="/public/java.info.png" alt="JavaScript.info logo" class="thumbnail">
+    <a href="https://javascript.info/" target="_blank">JavaScript.Info</a>
+  </div>
+
+  <div class="link">
+    <img src="/public/java30.jpeg" alt="javascript30 Logo" class="thumbnail">
+    <a href="https://javascript30.com/" target="_blank">JavaScript30</a>
+  </div>
+
+  <div class="link">
+    <img src="/public/codewars.png" alt="Codewars Logo" class="thumbnail">
+    <a href="https://www.codewars.com/" target="_blank">Codewars</a>
+  </div>
+
+  <div class="header">
+    <h2>Frameworks/Libraries</h2>
+  </div>
+
+  <div class="link">
+    <img src="/public/tailwindcss.png" alt="tailwindcss logo" class="thumbnail">
+    <a href="https://tailwindcss.com/" target="_blank">Tailwindcss</a>
+  </div>
+
+  <div class="link">
+    <img src="/public/react.png" alt="React logo" class="thumbnail">
+    <a href="https://react.dev/" target="_blank">React</a>
+  </div>
+
+  <div class="link">
+    <img src="/public/nodejs.png" alt="Node.js Logo" class="thumbnail">
+    <a href="https://nodejs.org/en" target="_blank">Node.js</a>
+  </div>
+
+
+  <div class="header">
+    <h2>Bootcamps</h2>
+  </div>
+
+  <div class="link">
+    <img src="/public/100devs.png" alt="100devs logo" class="thumbnail">
+    <a href="https://leonnoel.com/100devs/" target="_blank">100devs</a>
+  </div>
+
+  <div class="link">
+    <img src="/public/freecodecamp.png" alt="freeCodeCamp Logo" class="thumbnail">
+    <a href="https://www.freecodecamp.org/learn" target="_blank">freeCodeCamp</a>
+  </div>
+
+  <div class="link">
+    <img src="/public/odin.png" alt="The Odin Project Logo" class="thumbnail">
+    <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>
   </div>
 </div>
   
