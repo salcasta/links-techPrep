@@ -4,11 +4,79 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Links</title>
+
+  <style>
+    body {
+      padding: 40px 0;
+      background-color: #232946;
+      display: flex;
+      justify-content: center;
+    }
+
+    .name {
+      color: #fffffe;
+      display: flex;
+      justify-content: center;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
+
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      object-fit: cover;
+      border-radius: 48px;
+    }
+
+    .link {
+      background-color: #eebbc3;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+    }
+
+    .link a {
+      color: #232946;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .social-icons a {
+      color: #fffffe;
+      text-decoration: none;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
+    }
+  </style>
+
 </head>
 <body>
 
+<div class="items">
   <div class="banner">
-    <img src="/public/IMG_0010.JPG" alt="Sal's Profile Pic">
+    <img src="/public/IMG_0010.JPG" alt="Sal's Profile Pic" class="banner-image">
   </div>
 
   <div class="name">
@@ -30,19 +98,20 @@
   </div>
 
   <div class="link">
-    <img src="#" alt="#">
+    <img src="/public/codepen.png" alt="CodePen logo" class="thumbnail">
     <a href="https://codepen.io/" target="_blank">CodePen</a>
   </div>
 
   <div class="link">
-    <img src="#" alt="#">
+    <img src="/public/glitch.webp" alt="Glitch Logo" class="thumbnail">
     <a href="https://glitch.com/" target="_blank">Glitch</a>
   </div>
 
   <div class="link">
-    <img src="#" alt="#">
+    <img src="/public/codespace.jpeg" alt="Codespaces Logo" class="thumbnail">
     <a href="https://github.com/features/codespaces" target="_blank">Codespaces</a>
   </div>
+</div>
   
 </body>
 </html>
